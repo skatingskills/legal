@@ -1,7 +1,6 @@
 ---
 title: |
-  \vspace{3cm}
-  ![](logo.png){width=2in}  
+  \vspace{3cm} 
   \vspace{1cm}
   \Huge СТАТУТ  
   ГРОМАДСЬКОЇ ОРГАНІЗАЦІЇ  
