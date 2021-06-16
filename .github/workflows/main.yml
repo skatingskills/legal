@@ -33,7 +33,7 @@ jobs:
           sudo apt-get install -y pandoc  texlive-latex-base texlive-xetex ttf-mscorefonts-installer
 
     - name: Run pandoc for PDF
-      run: pandoc -H pandoc/title.tex -V mainfont="DejaVu Sans" -V geometry:a4paper -V geometry:margin=2cm -V linkcolor:blue --include-in-header pandoc/chapter_break.tex --pdf-engine=xelatex --output=Bylaws_UKR.pdf Bylaws_UKR.md
+      run: pandoc -H pandoc/title.tex -V mainfont="DejaVu Sans" -V geometry:a4paper -V geometry:margin=2cm -V linkcolor:blue --pdf-engine=xelatex --output=Bylaws_UKR.pdf Bylaws_UKR.md
 
     - name: Run pandoc for HTML
       run: pandoc --output=Bylaws_UKR.html Bylaws_UKR.md
